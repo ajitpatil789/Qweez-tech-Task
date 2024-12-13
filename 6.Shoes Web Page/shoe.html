@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="icon" href="./shoes.png">
+</head>
+<body>
+    <h1>Shoes Details Submission</h1>
+
+    <form action="">
+        <label for="owner">Owner Name:</label>
+        <input type="text" id="Owner" required placeholder="Enter Owner name"> <br> <br>
+
+        <label for="publish">Publish Date:</label>
+        <input type="date" id="publish" required> <br><br>
+
+        <label for="location">Location:</label>
+        <select name="location" id="location">
+            <option value="" disabled selected>Select location</option>
+            <option value="">RajaramPuri</option>
+            <option value="">ShivajiPeth</option>
+            <option value="">Reliance Mall</option>
+        </select> <br><br>
+
+        <label>Rating:</label><br>
+        <input type="radio" id="rating1" name="rating" value="1">
+        <label for="rating1">1 Star</label><br>
+        
+        <input type="radio" id="rating2" name="rating" value="2">
+        <label for="rating2">2 Stars</label><br>
+        
+        <input type="radio" id="rating3" name="rating" value="3">
+        <label for="rating3">3 Stars</label><br>
+        
+        <input type="radio" id="rating4" name="rating" value="4">
+        <label for="rating4">4 Stars</label><br>
+        
+        <input type="radio" id="rating5" name="rating" value="5" checked>
+        <label for="rating5">5 Stars</label><br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  }
+
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+ 
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card-specific styles */
+.card1 {
+  
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card2 {
+  
+  text-align: right;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.card3 {
+  flex-direction: column; /* Image on top, Paragraph below */
+  align-items: center;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+.card4 {
+  
+  margin-left: 900px;
+  margin-top: 20px;
+}
+
+/* Shared styles for images */
+.card img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+  
+}
+
+/* Shared styles for paragraphs */
+.card p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College info</title>
+</head>
+
+<body>
+    <center><img src="./college.jpg" alt="college logo" width="150"></center>
+    <center>
+        <h1>WELCOME TO UNIVERSITY</h1>
+    </center>
+
+    <H3>About Our College</H3>
+    <P>UNIVERSITY College was established in 1990 with a vision to provide quality education and promote a culture of
+        excellence. Our college has been recognized for its contributions to higher education and for providing students
+        with a well-rounded academic experience.</P>
+
+    <H3>Mission </H3>
+    <P>Our mission is to foster an inclusive environment that supports students from diverse backgrounds and enables
+        them to reach their full potential. We are committed to empowering our students with knowledge, skills, and
+        ethical values to succeed in their personal and professional lives.
+
+    <H3>Facilities </H3>
+    <P>Our campus offers state-of-the-art facilities including a library with extensive resources, modern laboratories, a
+        sports complex, and on-campus hostels. We also have several student organizations and activity clubs that
+        promote social, cultural, and intellectual development.
+
+    <H3>Campus </H3>
+    <img src="./campus.jpg" alt="campus" width="500">
+
+    <p>Our campus is vibrant with various extracurricular activities and clubs that keep students engaged and foster a
+        sense of community.</p>
+
+    <H3>Student Activities </H3>
+    <img src="./activity.jpg" alt="activity" width="500">
+
+    <p>We encourage students to participate in events, workshops, and competitions organized by the college to enhance
+        their skills and broaden their horizons.</p>
+
+    <H3>Learn More</H3>
+    <p>For more information about our programs, please visit the <a href="https://www.unishivaji.ac.in/" target="_blank">official
+            college website.</a></p>
+
+    <H3>Departments</H3>
+    
+    <table border="2x">
+        <tr>
+            <th>Department Name</th>
+            <th>HOD</th>
+            <th>Contact No</th>
+            <th>No.of courses offered</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Computer Science</td>
+            <td>Haval</td>
+            <td>9686542568</td>
+            <td><center>5</center></td>
+            <td>Kolhapur</td>
+        </tr>
+
+        <tr>
+            <td>Civil</td>
+            <td>AP Patil</td>
+            <td>9565456815</td>
+            <td><center>4</center></td>
+            <td>Pune</td>
+        </tr>
+
+        <tr>
+            <td>Mechanical</td>
+            <td>John</td>
+            <td>8565423658</td>
+            <td><center>3</center></td>
+            <td>Kolhapur</td>
+        </tr>
+
+        <tr>
+            <td>Electronics</td>
+            <td>S M Trump</td>
+            <td>8565235456</td>
+            <td><center>4</center></td>
+            <td>Kolhapur</td>
+        </tr>
+
+    </table>
+
+    <h3>Admission Inquiry Form</h3>
+    <form action="home.html">
+        <label for="name">Student Name:</label> <br>
+        <input type="text" id="name" required placeholder="Student Name"> <br><br>
+
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email" required> <br><br>
+
+        <label for="dob">Date Of Birth:</label> <br>
+        <input type="date" id="dob" required> <br><br>
+
+        <label for="course">Interested Course:</label> <br>
+        <select name="course" id="course">
+            <option value="">Computer Science</option>
+            <option value="">Civil</option>
+            <option value="">Mechanical</option>
+            <option value="">Electronics</option>
+        </select> <br><br>
+
+        <label for="phone">Phone Number:</label> <br>
+        <input type="text" id="phone"> <br><br>
+
+        <button type="submit">Submit Inquiry</button>
+        <input type="reset">
+
+    </form>
+
+</body>
+
+</html>

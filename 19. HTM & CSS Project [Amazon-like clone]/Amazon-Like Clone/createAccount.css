@@ -1,0 +1,119 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  /* Create account box */
+  .create-account-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-account-box h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .create-account-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .create-account-box input {
+    /* font-size: 12px; */
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1x solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .create-account-box .password-hint {
+    font-size: 12px;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .create-account-box .btn {
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    color: #111;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .create-account-box .btn a {
+    text-decoration: none;
+    color: #111;
+  }
+
+  .create-account-box .btn:hover {
+    background-color: #ddb347;
+  }
+
+  /* Note */
+.note {
+    font-size: 12px;
+    color: #555;
+    margin-top: 15px;
+    text-align: left;
+  }
+  .note a {
+    color: #0066c0;
+    /* text-decoration: none; */
+  }
+
+  .note a:hover {
+    /* text-decoration: underline; */
+    color: #ddb347;
+  }
+
+  /* Divider */
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+  }
+
+  /* Sign-in link */
+.sign-in-link {
+    font-size: 14px;
+  }
+  
+  .sign-in-link a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .sign-in-link a:hover {
+    text-decoration: underline;
+  }

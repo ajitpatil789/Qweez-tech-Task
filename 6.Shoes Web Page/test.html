@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Details Form</title>
+</head>
+<body>
+    <h1>Shoe Details Submission</h1>
+
+    <form>
+        <!-- Owner Name Field -->
+        <label for="ownerName">Owner Name:</label>
+        <input type="text" id="ownerName" name="ownerName" placeholder="Enter owner name" required>
+        <br><br>
+
+        <!-- Publish Date Field -->
+        <label for="publishDate">Publish Date:</label>
+        <input type="date" id="publishDate" name="publishDate" required>
+        <br><br>
+
+        <!-- Location Dropdown -->
+        <label for="location">Location:</label>
+        <select id="location" name="location" required>
+            <option value="" disabled selected>Select location</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="India">India</option>
+        </select>
+        <br><br>
+
+        <!-- Rating Radio Buttons -->
+        <label>Rating:</label><br>
+        <input type="radio" id="rating1" name="rating" value="1">
+        <label for="rating1">1 Star</label><br>
+        
+        <input type="radio" id="rating2" name="rating" value="2">
+        <label for="rating2">2 Stars</label><br>
+        
+        <input type="radio" id="rating3" name="rating" value="3">
+        <label for="rating3">3 Stars</label><br>
+        
+        <input type="radio" id="rating4" name="rating" value="4">
+        <label for="rating4">4 Stars</label><br>
+        
+        <input type="radio" id="rating5" name="rating" value="5" checked>
+        <label for="rating5">5 Stars</label><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

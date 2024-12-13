@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .meet-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    background-color: #333;
+    display: flex;
+    gap: 20px;
+    color: #aab0b6;
+    padding: 10px;
+    /* text-align: center; */
+    font-size: 14px;
+  }
+
+  .top-bar button {
+    background-color: rgb(123, 123, 168);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 785px;
+
+  }
+  
+  
+  /* Video Grid */
+.video-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    background-color: #000;
+  }
+  
+  .video-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .video-tile img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .video-tile .muted {
+    color: #ff4d4d;
+  }
+  
+  /* Bottom Control Bar */
+  .control-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202124;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: #3c4043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #5f6368;
+  }
+  
+  .btn.leave {
+    background-color: #d93025;
+  }
+  
+  .btn.leave:hover {
+    background-color: #a6271e;
+  }
+  
