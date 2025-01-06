@@ -1,8 +1,10 @@
 const emailForm = document.getElementById("emailForm");
 
-emailForm.addEventListener("submit", function (e) {
+emailForm.addEventListener("submit", (e) => {
   //e.preventDefault();
   const emailInput = document.getElementById("email");
+  
+  
   const email = emailInput.value;
 
   if (email && emailInput.checkValidity()) {
@@ -12,3 +14,7 @@ emailForm.addEventListener("submit", function (e) {
     alert(`Please enter a valid email address.`);
   }
 });
+
+
+
+
