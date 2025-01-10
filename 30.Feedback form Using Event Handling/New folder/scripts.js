@@ -33,7 +33,7 @@ function handleFocus(element) {
   document
     .getElementById("feedbackForm")
     .addEventListener("submit", function (event) {
-      event.preventDefault();
+      //event.preventDefault();
 
       const name = document.getElementById("name").value.trim();
       const email = document.getElementById("email").value.trim();

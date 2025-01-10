@@ -26,7 +26,7 @@ join(''): Joins the array back into a string. */
 function isPalindrome(str1) {
   // Normalize the string: remove spaces and convert to lowercase
   const normalizedStr = str1.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  //console.log(normalizedStr);
+  console.log(normalizedStr);
 
   // Reverse the normalized string
   const reversedStr = normalizedStr.split("").reverse().join("");

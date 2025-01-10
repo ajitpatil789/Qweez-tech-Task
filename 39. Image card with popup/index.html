@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Interactive Image Cards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Image Gallary</h1>
+  <!-- Cards Container -->
+  <div class="cards-container">
+    <!-- Card 1 -->
+    <div class="image-card" data-id="1" data-description="Learn Data Science from Scratch equips you with the essential tools and techniques, from Python libraries to machine learning algorithms, to tackle real-world problems and make informed decisions. This book provides a thorough exploration of essential data science concepts, tools, and techniques.">
+      <img src="https://m.media-amazon.com/images/I/810r-y9MUNL._SL1500_.jpg" alt="Image 1" class="card-image">
+      <h3 class="card-title">Learn Data Science</h3>
+      <p class="card-description">Learn Data Science from Scratch: Mastering ML and NLP with Python in a step-by-step approach</p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    <!-- Card 2 -->
+    <div class="image-card" data-id="2" data-description="avaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. through simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale applications.">
+      <img src="https://m.media-amazon.com/images/I/71I-9NCsYVL._SL1400_.jpg" alt="Image 2" class="card-image">
+      <h3 class="card-title">Eloquent Javascript 3E</h3>
+      <p class="card-description">JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon. </p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    <!-- Card 3 -->
+    <div class="image-card" data-id="3" data-description="Brian Goetz is the Java Language Architect at Oracle Corporation, and was the specification lead for JSR-335 (Lambda Expressions for the Java Programming Language.) He is the author of the best-selling Java Concurrency in Practice.">
+      <img src="https://m.media-amazon.com/images/I/71ho2R8EEKL._SL1400_.jpg" alt="Image 3" class="card-image">
+      <h3 class="card-title">Java Concurrency in Practice, 1e</h3>
+      <p class="card-description">Brian Goetz is the Java Language Architect at Oracle Corporation, and was the specification lead for JSR-335</p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    <!-- Card 4 -->
+    <div class="image-card" data-id="4" data-description="Master HTML and CSS fundamentals to create beautiful websites.The best book on the market for modern web design fundamentals!
+    Every one of the over 4 billion webpages online today use HTML markup language to display its content.">
+      <img src="https://m.media-amazon.com/images/I/61XVS77279L._SL1360_.jpg" alt="Image 4" class="card-image">
+      <h3 class="card-title">HTML & CSS QuickStart Guide</h3>
+      <p class="card-description">The Simplified Beginners Guide to Developing a Strong Coding Foundation, Building Responsive Websites</p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    <!-- Card 5 -->
+    <div class="image-card" data-id="5" data-description="The road to learn react teaches you the fundamentals of react. You will build a real world application along the way in plain react without complicated tooling. Everything from project setup to deployment on a server will be explained. ">
+      <img src="https://m.media-amazon.com/images/I/51j1nrM7ETL._SL1360_.jpg" alt="Image 5" class="card-image">
+      <h3 class="card-title">The Road To Learn React</h3>
+      <p class="card-description">Your Journey To Master Plain Yet Pragmatic React.Js</p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    <!-- Card 6 -->
+    <div class="image-card" data-id="6" data-description="Looking to build and deploy microservices but not sure where to start? Check out Microservices with Spring Boot 3 and Spring Cloud, Third Edition.">
+      <img src="https://m.media-amazon.com/images/I/71zLsyhMbtL._SL1360_.jpg" alt="Image 6" class="card-image">
+      <h3 class="card-title">
+        Microservices with Spring Boot 3 and Spring Cloud </h3>
+      <p class="card-description"> Third Edition: Build resilient and scalable microservices using Spring Cloud, Istio, and Kubernetes</p>
+      <button class="more-info-btn">More Info</button>
+    </div>
+    
+  </div>
+
+  <!-- Popup -->
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <img src="" alt="Popup Image" class="popup-image">
+      <h3 id="popup-title">Detailed Title</h3>
+      <p id="popup-description">Detailed description of the card will appear here.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
