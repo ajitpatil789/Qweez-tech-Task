@@ -30,6 +30,5 @@ let result;
 for (i = 23; i <= 71; i++) {
   result =
     i % 3 === 0 ? `${i} is Divisible by 3` : `${i} is not Divisible by 3`;
-    console.log(result);
+  console.log(result);
 }
-

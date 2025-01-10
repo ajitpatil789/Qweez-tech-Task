@@ -1,36 +1,36 @@
-// /* const great = () => {
-//   return "Hello, World!";
-// };
-// console.log(great());
+ const great = () => {
+  return "Hello, World!";
+};
+console.log(great());
 
-// const add_numbers = (a, b) => {
-//   return a + b;
-// };
-// console.log("Sum is", add_numbers(10, 20)); // Output : Sum is 30
+const add_numbers = (a, b) => {
+  return a + b;
+};
+console.log("Sum is", add_numbers(10, 20)); // Output : Sum is 30
 
 
 
-// // Anonymus function`
+// Anonymus function`
 
-// /* const add = function(x,y){
-//     return x + y;
-// };
-// console.log(`Addition is ${add(20,10)}`); */
+ const add = function(x,y){
+    return x + y;
+};
+console.log(`Addition is ${add(20,10)}`); 
 
-// // Arrow function
+//  Arrow function
 // const add = (x,y) => {
 //     return x + y;
 // }
 // console.log(`Addition is ${add(50,100)}`);
 
-// // display cube using anonymus function
+//  display cube using anonymus function
 
 // const cub = function(n){
 //     return n * n * n;
 // }
 // console.log(`cube is ${cub(10)}`);
 
-// // display cube using Arrow function
+//  display cube using Arrow function
 // const cubes = (p)=> {
 //     return p * p * p;
 // }

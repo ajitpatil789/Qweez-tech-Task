@@ -20,7 +20,7 @@ function day(str) {
 }
 day("Good Day...");
 
-// // Display addition of two numbers by using  function with parameter and no value retun
+// Display addition of two numbers by using  function with parameter and no value retun
 
 function add(a, b) {
   console.log(`Addition is ${a + b}`);
@@ -36,7 +36,7 @@ function substract() {
 }
 console.log(substract());
 
-// //4.Substraction using function with  parameters and values return
+// 4.Substraction using function with  parameters and values return
 
 function substract(a, b) {
   return a - b;
